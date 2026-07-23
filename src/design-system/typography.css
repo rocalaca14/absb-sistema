@@ -1,0 +1,58 @@
+/* ========================================================================
+   Typography — Projeto ABSB
+   Estilos base de tipografia. Fonte única: Inter.
+   Apenas subsets latin e latin-ext (pt-BR, suporte europeu).
+   Apenas pesos utilizados: 400, 600, 700.
+   ======================================================================== */
+
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-600.css';
+@import '@fontsource/inter/latin-700.css';
+@import '@fontsource/inter/latin-ext-400.css';
+@import '@fontsource/inter/latin-ext-600.css';
+@import '@fontsource/inter/latin-ext-700.css';
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: var(--font-size-section);
+  font-weight: var(--font-weight-semibold);
+}
+
+h3 {
+  font-size: var(--font-size-card-title);
+  font-weight: var(--font-weight-semibold);
+}
+
+p {
+  line-height: var(--line-height-base);
+}
+
+small {
+  font-size: var(--font-size-caption);
+  color: var(--color-text-secondary);
+}

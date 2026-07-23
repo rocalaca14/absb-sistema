@@ -1,0 +1,7 @@
+.fallback {
+  display: grid;
+  row-gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--color-background);
+  min-height: 100dvh;
+}

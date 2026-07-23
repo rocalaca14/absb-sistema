@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  top: 244px;
+  left: var(--space-screen-x);
+  right: var(--space-screen-x);
+  z-index: var(--z-toast);
+  display: grid;
+  row-gap: var(--space-3);
+  pointer-events: none;
+}
+
+.container > * {
+  pointer-events: auto;
+}

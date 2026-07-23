@@ -1,0 +1,76 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.toolbarRow {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.searchWrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.filterGroup {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.tableSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  font-size: var(--font-size-caption);
+  color: var(--color-text-secondary);
+}
+
+.paginationInfo {
+  flex-shrink: 0;
+}
+
+.paginationControls {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.valorCell {
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
+}
+
+.vencimentoCell {
+  white-space: nowrap;
+}
+
+.referenciaCell {
+  white-space: nowrap;
+}
+
+@media (max-width: 479px) {
+  .toolbarRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filterGroup {
+    width: 100%;
+  }
+
+  .filterGroup select {
+    flex: 1;
+    min-width: 0;
+  }
+}

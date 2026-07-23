@@ -1,0 +1,17 @@
+.stack {
+  display: flex;
+  align-items: stretch;
+}
+
+.horizontal {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}

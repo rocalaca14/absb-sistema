@@ -1,0 +1,26 @@
+.appShell {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--color-background);
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.headerSlot {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+}
+
+.main {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  min-height: 0;
+  /* Padding inferior reserva espaço para o BottomNav fixo (80px + safe area) */
+  padding-bottom: calc(80px + var(--safe-area-bottom));
+}

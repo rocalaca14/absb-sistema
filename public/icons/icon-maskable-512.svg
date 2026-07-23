@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Maskable icon: a "safe zone" central de 80% deve conter toda informação visível.
+       Conteúdo principal: 80% central (410x410 dentro de 512x512).
+       Background: 100% preenchido (cor sólida na safe zone externa). -->
+  <rect width="512" height="512" fill="#00BAB9"/>
+  <rect x="51" y="51" width="410" height="410" fill="#008F8E" rx="64"/>
+  <text x="256" y="290" font-family="Inter, system-ui, sans-serif" font-size="108" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">ABSB</text>
+</svg>

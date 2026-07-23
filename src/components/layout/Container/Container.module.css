@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}

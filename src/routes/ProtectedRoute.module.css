@@ -1,0 +1,10 @@
+.loading {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: var(--space-5);
+  background: var(--color-background);
+  gap: var(--space-3);
+}

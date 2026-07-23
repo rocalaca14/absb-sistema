@@ -1,0 +1,14 @@
+.spacer {
+  display: block;
+  flex-shrink: 0;
+}
+
+.horizontal {
+  width: var(--spacer-size, var(--space-4));
+  height: 1px;
+}
+
+.vertical {
+  width: 1px;
+  height: var(--spacer-size, var(--space-4));
+}

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-9) var(--space-5);
+  background: var(--color-card);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  gap: var(--space-3);
+  min-height: 240px;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-pill);
+  background: var(--color-info-bg);
+  color: var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+.error .iconWrapper {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.firstUse .iconWrapper {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-size: var(--font-size-card-title);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.description {
+  font-family: var(--font-family);
+  font-size: var(--font-size-text);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+  margin: 0;
+  max-width: 360px;
+}
+
+.action {
+  margin-top: var(--space-3);
+}

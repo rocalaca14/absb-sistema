@@ -1,0 +1,20 @@
+.container {
+  display: block;
+  margin-bottom: var(--space-section);
+}
+
+.title {
+  font-size: var(--font-size-section);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-title-subtitle);
+}

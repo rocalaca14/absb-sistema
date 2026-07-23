@@ -1,0 +1,11 @@
+.container {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 var(--space-screen-x) var(--space-screen-bottom);
+}
+
+.firstChild {
+  /* Primeira seção: padding-top generoso para respirar sob o header */
+  padding-top: var(--space-section);
+}

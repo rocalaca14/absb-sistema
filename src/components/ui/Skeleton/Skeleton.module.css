@@ -1,0 +1,23 @@
+.skeleton {
+  display: block;
+  background: var(--color-border);
+  animation: skeleton-pulse var(--duration-skeleton) var(--easing-standard) infinite;
+}
+
+@keyframes skeleton-pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--space-3);
+}
